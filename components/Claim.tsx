@@ -53,8 +53,7 @@ const handleClaim = (e: React.FormEvent) => {
 
             <p className="mt-5 text-sm leading-7 text-[#6E6E6E] sm:text-base">
               Whether you're looking for unlimited washes, premium
-              detailing, or seasonal savings we'll help you find the
-              perfect package for your vehicle.
+              detailing, or seasonal savings, we'll help you find the perfect package for your vehicle.
             </p>
 
             <h4 className="mt-8 text-sm font-bold text-[#1E1E1E]">
@@ -125,7 +124,7 @@ const handleClaim = (e: React.FormEvent) => {
 
 <div className="w-full">
               <label className="block text-sm lg:text-base font-medium text-gray-300 mb-1">
-              MObile Number
+              Mobile Number
               </label>
                   <input
                     type="number"
