@@ -133,7 +133,6 @@ const Footer: React.FC = () => {
               <li>Monday - Friday: 8:00 AM - 7:00 PM</li>
               <li>Saturday: 8:00 AM - 6:00 PM</li>
               <li>Sunday: 9:00 AM - 5:00 PM</li>
-              <li>Emergency Services: 24/7</li>
             </ul>
           </div>
 

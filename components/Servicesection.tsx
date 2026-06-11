@@ -14,7 +14,7 @@ const membershipCards: MembershipCard[] = [
     icon: <Coins className="w-6 h-6 text-red-500" />,
     title: "Save Over $285 in Value",
     description:
-      "A single BEST wash is $49. At just 4 visits, you've already broken even. Wash weekly, and you're unlocking $1,700+ in value for only $150.",
+      "A single BEST wash is $49. At just 4 visits, you've already broken even. Wash weekly, and you'll unlock $1,700+ in value for only $150.",
   },
   {
     icon: <Sparkles className="w-6 h-6 text-red-500" />,
@@ -32,7 +32,7 @@ const membershipCards: MembershipCard[] = [
     icon: <Gift className="w-6 h-6 text-red-500" />,
     title: "20% Goes Directly to Veterans",
     description:
-      "20% of all proceeds are donated to veteran-focused and veteran-run nonprofit organizations. Your car gets clean, veterans get support.",
+      "20% of all proceeds are donated to veteran-focused and veteran-run nonprofit organizations. Your car gets clean, and veterans get support.",
   },
   {
     icon: <Timer className="w-6 h-6 text-red-500" />,
