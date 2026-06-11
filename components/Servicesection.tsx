@@ -1,6 +1,6 @@
 
 
-import { Droplet, Sparkles, Clock, PiggyBank, Target, Heart } from "lucide-react";
+import { Coins, Sparkles, Infinity, Gift, Timer, Megaphone } from "lucide-react";
 import Link from "next/link";
 
 interface MembershipCard {
@@ -11,7 +11,7 @@ interface MembershipCard {
 
 const membershipCards: MembershipCard[] = [
   {
-    icon: <PiggyBank className="w-6 h-6 text-red-500" />,
+    icon: <Coins className="w-6 h-6 text-red-500" />,
     title: "Save Over $285 in Value",
     description:
       "A single BEST wash is $49. At just 4 visits, you've already broken even. Wash weekly, and you're unlocking $1,700+ in value for only $150.",
@@ -23,25 +23,25 @@ const membershipCards: MembershipCard[] = [
       "Every wash includes our top-tier package: advanced ceramic seal, wheel & rim cleaning, triple foam treatment, floor mat deep clean, and professional hand towel dry.",
   },
   {
-    icon: <Clock className="w-6 h-6 text-red-500" />,
+    icon: <Infinity className="w-6 h-6 text-red-500" />,
     title: "Unlimited Washes for 90 Days",
     description:
       "Drive in as many times as you want! No limits, no blackout dates. Every visit is your full BEST full-service wash at no extra charge.",
   },
   {
-    icon: <Heart className="w-6 h-6 text-red-500" />,
+    icon: <Gift className="w-6 h-6 text-red-500" />,
     title: "20% Goes Directly to Veterans",
     description:
       "20% of all proceeds are donated to veteran-focused and veteran-run nonprofit organizations. Your car gets clean, veterans get support.",
   },
   {
-    icon: <Target className="w-6 h-6 text-red-500" />,
+    icon: <Timer className="w-6 h-6 text-red-500" />,
     title: "In & Out in Under 10 Minutes",
     description:
       "Our state-of-the-art express tunnels get you back on the road fast without cutting a single corner on cleanliness. No waiting, every time.",
   },
   {
-    icon: <Droplet className="w-6 h-6 text-red-500" />,
+    icon: <Megaphone className="w-6 h-6 text-red-500" />,
     title: "Your Membership Puts Veterans in the Spotlight",
     description:
       "Participating veteran non-profits receive co-branded marketing, social media promotion, and direct public engagement opportunities during the event.",
